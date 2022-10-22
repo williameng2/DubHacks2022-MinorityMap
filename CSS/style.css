@@ -1,3 +1,42 @@
 h1 {
     color: blue;
 }
+
+.nav-text{
+    margin-top: 0;
+    top: 0;
+    color: white;
+  }
+  
+  .top-container{
+    background-color: #CFCFEA;
+    width: 100%;
+    height: 30%;
+    padding: 0;
+    /* position: relative;*/
+    /*padding-top: 500px;*/
+  }
+  .mid-container1{
+    background-color: #A89B9D;
+    width: 100%;
+    height: 30%;
+    padding: 0;
+    /* position: relative;*/
+    /*padding-top: 500px;*/
+  }
+  .mid-container2{
+    background-color: #816C61;
+    width: 100%;
+    height: 30%;
+    padding: 0;
+    /* position: relative;*/
+    /*padding-top: 500px;*/
+  }
+  .bottom-container{
+    background-color: #575A4B;
+    width: 100%;
+    height: 30%;
+    padding: 0;
+    /* position: relative;*/
+    /*padding-top: 500px;*/
+  }
