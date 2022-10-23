@@ -74,6 +74,8 @@ path:click {
 #data-info {
     font: 24px;
     padding: 2%;
+    font-family: "Poppins";
+    color: red;
 }
 
 * {
