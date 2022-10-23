@@ -71,7 +71,7 @@ path:click {
     opacity: 0%;
     padding: 2%;
     border-radius: 8px;
-    font-size: fit-content;
+    
     position: absolute;
     color: black;
     font-family: "Poppins";
@@ -90,8 +90,12 @@ path:click {
 }
 
 #state-name {
-    font: 62px;
+    font-size: 2.5em;
     color: pink;
+}
+
+.text-body {
+    font-size: 1em;
 }
 
 
