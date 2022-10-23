@@ -79,31 +79,22 @@ h1 {
   .mid-container1{
     background-color: 	#b2a896;
     width: 100%;
-    height: 60%;
+    height: 54%;
     padding: 0;
     margin: 0;
     /* position: relative;*/
     /*padding-top: 500px;*/
   }
 
-  a.email-text:link {
-    color: rgb(199, 196, 196);
+  .research{
+    color: rgb(239, 235, 235);
+    font-size: 180%;
+    text-align: left;
+    margin: 0.67% 8%;
+    padding-left: 2%;
+    font-family: 'Lato', sans-serif;
   }
 
-  a.email-text:hover {
-    color: white;
-    font-weight: bold;
-  }
-
-  a.email-text:visited{
-    color: rgb(199, 196, 196);
-  }
-  a.email-text:focus{
-    color: rgb(199, 196, 196);
-  }
-  a.email-text:active{
-    color: rgb(199, 196, 196);
-  }
 
   .mid-container2{
     background-color: #94ac78;
@@ -135,6 +126,26 @@ h1 {
     margin: 0.66% 1%;
     float: left;
     width: 14%;
+  }
+
+  
+  a.email-text:link {
+    color: rgb(199, 196, 196);
+  }
+
+  a.email-text:hover {
+    color: white;
+    font-weight: bold;
+  }
+
+  a.email-text:visited{
+    color: rgb(199, 196, 196);
+  }
+  a.email-text:focus{
+    color: rgb(199, 196, 196);
+  }
+  a.email-text:active{
+    color: rgb(199, 196, 196);
   }
 
   .row:after {
