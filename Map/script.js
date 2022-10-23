@@ -54,13 +54,13 @@ document.addEventListener("click", function (f) {
          //console.log(stateData2D);
         //var stateData2D
         var sName =  stateData2D[stateInd][0];
-        var output = "<p class=\"text-body\" class=\"tabed-text\"><br>home to " + stateData2D[stateInd][2] + " people!</p><br><p class=\"text-body\">Female Population: " 
+        var output = "<p class=\"text-body\" class=\"tabed-text\"><br>home to " + stateData2D[stateInd][2] + " people!</p><br><p class=\"text-body\">- Female Population: " 
         + stateData2D[stateInd][4] + " (" + stateData2D[stateInd][5] 
-        + "% of total state population)</p><br><p class=\"text-body\">LGBTQ Population: " + stateData2D[stateInd][1] 
-        + " (" + stateData2D[stateInd][3] + " of total state population)</p><br><p class=\"text-body\">Racial Minority Population: (" 
+        + "% of total state population)</p><br><p class=\"text-body\">- LGBTQ Population: " + stateData2D[stateInd][1] 
+        + " (" + stateData2D[stateInd][3] + " of total state population)</p><br><p class=\"text-body\">- Racial Minority Population: (" 
         + stateData2D[stateInd][7] + " of total state population)</p><br><p class=\"text-body\">In 2020, there were:" 
-        + "</p><br><p class=\"text-body\" class=\"tabed-text\">-" + stateData2D[stateInd][8] + " incidents of gender-based hate crimes</p><br><p class=\"text-body\" class=\"tabed-text\">-" 
-        + stateData2D[stateInd][10] + " incidents of sexual-orientation-based hate crimes</p><br><p class=\"text-body\" class=\"tabed-text\">-"
+        + "</p><br><p class=\"text-body\" class=\"tabed-text\">- " + stateData2D[stateInd][8] + " incidents of gender-based hate crimes</p><br><p class=\"text-body\" class=\"tabed-text\">- " 
+        + stateData2D[stateInd][10] + " incidents of sexual-orientation-based hate crimes</p><br><p class=\"text-body\" class=\"tabed-text\">- "
         + stateData2D[stateInd][9] + " incidents of race-based hate crimes</p>";
         
         //str = infocontent + "\n" +  output
