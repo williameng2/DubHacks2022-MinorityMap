@@ -19,7 +19,7 @@ h1 {
     display:inline-block;
     font-size: 180%;
     font-family: "DejaVu Sans Mono", monospace;
-    padding-left: 20px;
+    padding-left: 1.33%;
   }
 
   a.section-bar-text:link {
@@ -62,16 +62,16 @@ h1 {
 
   .purpose{
     color: rgb(239, 235, 235);
-    font-size: 30px;
+    font-size: 180%;
     text-align: left;
-    margin: 10px 90px;
+    margin: 0.67% 6%;
     font-family: 'Lato', sans-serif;
   }
 
   .header-title{
     color: white;
-    padding-top: 10px;
-    font-size: 70px;
+    padding-top: 0.67%;
+    font-size: 350%;
     text-align: center;
 
   }
@@ -109,28 +109,30 @@ h1 {
     background-color: #94ac78;
     width: 100%;
     height: 63%;
-    padding: 0;
+    padding-left: 15%;
+    padding-right: 13%;
     margin: 0;
     /* position: relative;*/
     /*padding-top: 500px;*/
-    text-align: center;
-    align-content: center;
+    /*text-align: center;
+    align-content: center;*/
   }
 
 
   .fit-picture{
-    padding: 15px 15px 5px;
+    padding: 1% 1.2% 0.33%;
     /* margin-top: 8px;*/
   }
   .column {
-    margin: 10px 15px;
+    margin: 0.66% 1.7%;
     float: left;
-    width: 15%;
+    width: 21%;
     color: white;
     line-height: 1.5;
+    text-align: center;
   }
   .column-filler{
-    margin: 10px 15px;
+    margin: 0.66% 1%;
     float: left;
     width: 14%;
   }
@@ -140,7 +142,7 @@ h1 {
     display: table;
     clear: both;
     align-content: center;
-    margin: 5px 2000px 5px;
+    margin: 0.33% 1.33% 0.33%;
   }
 
   
@@ -178,7 +180,7 @@ li.nav-bar-style{
   display:inline-block;
   font-size: 180%;
   font-family: "DejaVu Sans Mono", monospace;
-  padding-left: 20px;
+  padding-left: 1.33%;
 }
 
 a.nav-bar-text:link {
@@ -199,24 +201,24 @@ a.nav-bar-text:acti ve{
 }
 
 .form{
-  margin: 20px  15px;
-  font-size: 40px;
+  margin: 0.66% 1%;
+  font-size: 200px;
 }
 
 .name-box{
-  height: 55px;
-  width: 1000px;
+  height: 3.66%;
+  width: 66.67%;
 }
 
 .email-box{
-  height: 55px;
-  width: 1000px;
+  height: 3.66%;
+  width: 66.67%;
 }
 
 .form-name{
   position: relative;
-  top: 70px;
-  left: 30px;
+  top: 4.66%;
+  left: 2%
 }
 
 
