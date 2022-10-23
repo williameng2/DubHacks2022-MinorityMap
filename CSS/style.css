@@ -2,43 +2,151 @@ h1 {
     color: blue;
 }
 
-.nav-bar{
+
+
+.section-bar{
     margin-top: 0;
-    height: 5%;
-    color: white;
+    height: 8%;
     /*background: linear-gradient(to right, white, black);*/
-    background-color: black;
-    text-align: right;
-    padding: 5px 10px 5px;
+    background-color: #2a415f;
+    text-align: center;
+    padding-top: 1%;
+    padding-right: 1%;
     
   }
 
-  .hammy{
-    text-align: left;
-  }
-
-  .boxed{
-    border: 1px;
-    border-color: gr;
-    margin: 10px;
-  }
-
-  li.nav-bar-style{
+  li.section-bar-style{
     display:inline-block;
     font-size: 180%;
+    font-family: "DejaVu Sans Mono", monospace;
     padding-left: 20px;
   }
 
-  a.nav-bar-text:link {
-    color: grey;
+  a.section-bar-text:link {
+    color: rgb(199, 196, 196);
   }
 
-  /* mouse over link */
-  a.nav-bar-text:hover {
+  a.section-bar-text:hover {
     color: white;
     font-weight: bold;
   }
   
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top-container{
+    background-color: #91a3b0;
+    width: 100%;
+    height: 70%;
+    padding: 0;
+    margin: 0;
+    /* position: relative;*/
+    /*padding-top: 500px;*/
+  }
+  .mid-container1{
+    background-color: 	#f5e6ce;
+    width: 100%;
+    height: 70%;
+    padding: 0;
+    margin: 0;
+    /* position: relative;*/
+    /*padding-top: 500px;*/
+  }
+  .mid-container2{
+    background-color: #94ac78;
+    width: 100%;
+    height: 70%;
+    padding: 0;
+    margin: 0;
+    /* position: relative;*/
+    /*padding-top: 500px;*/
+  }
+  .bottom-container{
+    background-color: #575A4B;
+    width: 100%;
+    height: 70%;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+  }
+
+  .fit-picture{
+    padding: 5px 10px 5px;
+  }
+  .column {
+    margin: 10px 10px;
+    float: left;
+    width: 15%;
+  }
+  .column-filler{
+    margin: 10px 5px;
+    float: left;
+    width: 15%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    align-content: center;
+    margin: 5px 2000px 5px;;
+  }
+
+  
+  
+
+.nav-bar{
+  margin-top: 0;
+  height: 8%;
+  color: white;
+  /*background: linear-gradient(to right, white, black);*/
+  background-color: #3f5246;
+  text-align: center;
+  padding-top: 1%;
+  padding-right: 1%;
+  
+}
+
+/*.boxed{
+  border: 1px;
+  border-color: gr;
+  margin: 10px;
+}*/
+
+li.nav-bar-style{
+  display:inline-block;
+  font-size: 180%;
+  font-family: "DejaVu Sans Mono", monospace;
+  padding-left: 20px;
+}
+
+a.nav-bar-text:link {
+  color: rgb(199, 196, 196);
+}
+
+a.nav-bar-text:hover {
+  color: white;
+  font-weight: bold;
+}
+
+a.nav-bar-text:visited{
+  color: rgb(199, 196, 196);
+}
+
+a.nav-bar-text:active{
+  color: rgb(199, 196, 196);
+}
+
+
+/***************************************************/
+
+
+
   @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
   * {
@@ -190,58 +298,4 @@ h1 {
     display: none;
   }
 
-
-
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .top-container{
-    background-color: #CFCFEA;
-    width: 100%;
-    height: 70%;
-    padding: 0;
-    margin: 0;
-    /* position: relative;*/
-    /*padding-top: 500px;*/
-  }
-  .mid-container1{
-    background-color: #A89B9D;
-    width: 100%;
-    height: 70%;
-    padding: 0;
-    margin: 0;
-    /* position: relative;*/
-    /*padding-top: 500px;*/
-  }
-  .mid-container2{
-    background-color: #816C61;
-    width: 100%;
-    height: 70%;
-    padding: 0;
-    margin: 0;
-    /* position: relative;*/
-    /*padding-top: 500px;*/
-  }
-  .bottom-container{
-    background-color: #575A4B;
-    width: 100%;
-    height: 70%;
-    padding: 0;
-    margin: 0;
-    /* position: relative;*/
-    /*padding-top: 500px;*/
-  }
-
-    /* selected link 
-  a.nav-bar-text:active {
-    color: blue;
-  }*/
-    
-  /* visited link 
-  a.nav-bar-text:visited {
-    color: green;
-  }*/
   
