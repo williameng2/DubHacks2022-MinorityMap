@@ -1,3 +1,7 @@
+.name{
+  font-size: 40px;
+}
+
 path {
     stroke: white;
     fill: #94ac78 !important;
@@ -49,6 +53,12 @@ path:click {
     z-index: 1;
 }
 
+
+#test{
+  color: pink;
+}
+
+
 #side-info {
     top: 25%;
     left: 50%;
@@ -61,7 +71,7 @@ path:click {
     opacity: 0%;
     padding: 2%;
     border-radius: 8px;
-    font-size: 36px;
+    font-size: fit-content;
     position: absolute;
     color: black;
     font-family: "Poppins";
@@ -69,6 +79,7 @@ path:click {
     transform: translateX(-50%);
     transition: opacity .4s ease;
     z-index: auto;
+    display: flex;
 }
 
 #data-info {
@@ -77,6 +88,12 @@ path:click {
     font-family: "Poppins";
     color: red;
 }
+
+#state-name {
+    font: 62px;
+    color: pink;
+}
+
 
 * {
   margin: 0;
