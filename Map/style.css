@@ -12,11 +12,7 @@ path:hover {
     transform: scale(1.005, 1.005);
 }
 
-path:click {
-    fill: #3f5246 !important;
-    cursor: pointer;
-    transform: scale(1.005, 1.005);
-}
+
 
 #map-container {
     display: flex;
