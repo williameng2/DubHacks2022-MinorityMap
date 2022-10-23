@@ -54,11 +54,6 @@ path:click {
 }
 
 
-#test{
-  color: pink;
-}
-
-
 #side-info {
     top: 25%;
     left: 50%;
@@ -91,13 +86,16 @@ path:click {
 
 #state-name {
     font-size: 2.5em;
-    color: pink;
+    color: #91a3b0;
 }
 
 .text-body {
-    font-size: 1em;
+    font-size: .8em;
 }
 
+.tabed-text{
+    padding-left: 20px;
+}
 
 * {
   margin: 0;
